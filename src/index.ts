@@ -1,8 +1,11 @@
 import { Product } from "./Model/Product.js"
 import { Client } from "./Model/Client.js"
 import { Supplier } from "./Model/Supplier.js";
+import { InventoryLocation } from "./Model/InventoryLocation.js"
 import { ClientController } from './Controller/ClientController.js';
 import { ProductController } from './Controller/ProductController.js';
+import { InventoryLocationController } from "./Controller/InventoryLocationController.js";
+import { ProductClientController } from "./Controller/ProductClientController.js"
 
 import env from "dotenv"
 env.config();
@@ -17,6 +20,7 @@ const supplier = new Supplier("odysseus", "odysseus@exampletest.com", "Example 1
 const client1 = new Client("babis5", "babis@exampletest.com", "Example 8, Athens", 1235698967);
 const clientController = new ClientController();
 clientController.clientUpdate(client1);
-clientController.clientUpdate(supplier)
-
-
+clientController.clientUpdate(supplier);
+const inventoryLocation = new InventoryLocation("Test", "Test Project Location", "Example 10, Athens");
+const inventoryLocationController = new InventoryLocationController();
+inventoryLocationController.inventoryLocationUpdate(inventoryLocation);

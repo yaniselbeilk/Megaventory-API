@@ -17,7 +17,7 @@ const productController = new ProductController();
 productController.productUpdate(product1);
 productController.productUpdate(product2);
 const supplier = new Supplier("odysseus", "odysseus@exampletest.com", "Example 10, Athens", 1235698988);
-const client1 = new Client("babis5", "babis@exampletest.com", "Example 8, Athens", 1235698967);
+const client1 = new Client("babis", "babis@exampletest.com", "Example 8, Athens", 1235698967);
 const clientController = new ClientController();
 clientController.clientUpdate(client1);
 clientController.clientUpdate(supplier);

@@ -6,7 +6,7 @@ This source code is developed in Typescript at the base of the MVC (Model-View-C
 
 ## Installation
 To use this source code you need a [Megaventory](https://www.megaventory.com) account. Once you log in, complete the set-up (making sure to enable Orders) and then, under your profile generate a new APIKEY.
-After generating your key, clone the source code and create a file ". env" and place your key as is in the directory:
+After generating your key, clone the source code and create a file ". env" and place your key as is in the environnement file:
 ```
 APIKEY: <Your APIKEY>
 ```

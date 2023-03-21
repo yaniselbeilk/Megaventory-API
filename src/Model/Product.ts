@@ -1,4 +1,4 @@
-class Product {
+export class Product {
 
     readonly sku: number;
     readonly description: string;

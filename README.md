@@ -1,6 +1,6 @@
 # Megaventory-API
 
-![Language](https://img.shields.io/badge/Language-Typescript-blue)
+![Language](https://img.shields.io/badge/Language-TypeScript-blue)
 
 This source code is developed in Typescript at the base of the MVC (Model-View-Controller) model. His goal is to use the API of Megaventory and make different request in the back. It can currently add customers, products, suppliers and inventory location, I wasn't able to create a relationship between product and client/supplier yet.
 
